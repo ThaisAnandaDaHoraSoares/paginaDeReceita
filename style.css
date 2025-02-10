@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
 :root{
   font-family: "Alice", serif;
   line-height: 150%;
@@ -19,6 +24,7 @@ body{
 }
 img {
   border-radius: 16px;
+  margin-bottom: 24px;
 }
 
 h1{
@@ -32,4 +38,14 @@ h2{
 
 h1, h2{
   color: #291B1A;
+  margin-bottom: 4px;
+  line-height: 150%;
+}
+
+p + p{
+  margin-top: 12px ;
+}
+
+section + section{
+  margin-top: 24px;
 }
